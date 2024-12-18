@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym XYZ - Fitness & Wellness</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo1"></div>
+      <div class="logo" >HNF HARDCORE GYM</div>
+      <ul>
+        <li><a href="#home" >Home</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <style>
+     nav ul li a {
+      text-decoration: none;
+      color: rgb(132, 236, 14);
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+  
+
+    nav ul li a:hover {
+      color: #ff4500; 
+    }
+
+  </style>
+  </header>
+  
+
+  <section class="home" id="home">
+    <div class="intro">
+       <div style="font-size: 50px; font-weight: bolder; color: rgb(132, 236, 14);"> Build Your</div>
+       <div style="font-size: 50px; font-weight: bolder;color: rgb(250, 250, 249);">Dream Physique</div>  
+       <span id="element"></span>
+       <p class="bio">A gym is a fitness facility equipped with various exercise machines, weights, and 
+        <p class="p">tools designed to help individuals improve their physical health and achieve their goals.</p>
+       <p class="p">It provides a range of activities, including strength training, cardiovascular exercises.</p>
+       <button class="introbutton">Join Us</button>
+    </div>
+
+    <div class="image"></div>
+</section>
+
+  
+
+  <section id="Review" class="Review">
+    <h1 class="price1st" style="margin-top: 100px;font-size: 40px; display: flex;justify-content: center;align-items: center; color: rgb(117, 197, 25) ; gap: 20px;">Client <span style="color: rgb(117, 197, 25); font-size: 40px; font-weight: bolder;display: flex;justify-content: space-around;align-items: center; ">Reviews</span></h1>
+        <div class="reviewcontainer">
+            <div class="review1">
+                <div class="reviewimg1"></div>
+                   <h3>chris bumstead</h3>
+                   <div class="starimg">
+                    <img src="image/star logo.png" alt="">
+                    <img src="image/star logo.png" alt="">
+                    <img src="image/star logo.png" alt="">
+                    <img src="image/star logo.png" alt="">
+                    <img src="image/star logo.png" alt="">
+                  </div>
+                  <p>A well-equipped fitness facility that offers<br>
+                         a wide range of machines and expert trainers."</p>
+           </div>
+
+           <div class="review2">
+               <div class="reviewimg2"></div>
+                  <h3>saket gokhale</h3>
+                  <div class="starimg">
+                   <img src="image/star logo.png" alt="">
+                   <img src="image/star logo.png" alt="">
+                   <img src="image/star logo.png" alt="">
+                   <img src="image/star logo.png" alt="">
+                 </div>
+                  <p>Great gym to work out at, with<br>
+                     everything you need and no frills</p>
+           </div>
+
+           <div class="review3">
+               <div class="reviewimg3"></div>
+                  <h3>shivam dubey</h3>
+                  <div class="starimg">
+                   <img src="image/star logo.png" alt="">
+                   <img src="image/star logo.png" alt="">
+                   <img src="image/star logo.png" alt="">
+                   <img src="image/star logo.png" alt="">
+                   <img src="image/star logo.png" alt="">
+                 </div>
+                  <p>An absolute powerhouse of fitness<br>
+                     with top-notch equipment and<br>
+                       a motivating vibe!"</p>
+           </div>
+       </div>
+  </section>
+
+  
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card1">
+        <h3>Personal Training</h3>
+        <p>One-on-one training with certified trainers.</p>
+      </div>
+      <div class="card2">
+        <h3>Weight traning sessions</h3>
+        <p>Join our informative and proper guidence sessions.</p>
+      </div>
+      <div class="card3">
+        <h3>Yoga & Wellness</h3>
+        <p>Relax and rejuvenate with our yoga sessions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="membership" class="membership">
+    <h2>Membership Plans</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>ONE MONTH</h3>
+        <P>WEIGHT TRANING + CARDIO </P>
+        <p>₹ 1,000</p>
+        <a href="#contact">Sign Up</a>
+      </div>
+      <div class="plan">
+        <h3>THREE MONTHS</h3>
+        <P>WEIGHT TRANING + CARDIO </P>
+        <p>₹ 3,000</p>
+        <a href="#contact">Sign Up</a>
+      </div>
+      <div class="plan">
+        <h3>SIX MONTHS</h3>
+        <P>WEIGHT TRANING + CARDIO </P>
+        <p>₹ 5,000</p>
+        <a href="#contact">Sign Up</a>
+      </div>
+
+      <div class="plan">
+        <h3>ONE YEARLY</h3>
+        <P>WEIGHT TRANING + CARDIO </P>
+        <p>₹ 10,000</p>
+        <a href="#contact">Sign Up</a>
+    </div>
+  </section>
+
+  
+  <section class="contact-section" id="contact">
+    <div class="contact-intro">
+      <h1 class="contact-title  "style= "color:white">Contact <span style="color: rgb(117, 197, 25);">Us</span></h1>
+      <p class="contact-description">
+        Fill out the form below and we'll get back to you as soon as possible.
+      </p>
+    </div>
+  
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  
+      <input type="hidden" name="access_key" value="" />
+      <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+      <input type="hidden" name="from_name" value="My Website" />
+  
+      <div class="form-group-container">
+        <div class="form-group">
+          <label for="name" class="form-label">Name</label>
+          <input id="name" name="name" class="form-input" placeholder="Your Name" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" name="email" class="form-input" placeholder="Your Email" type="email" />
+        </div>
+        <div class="form-group">
+          <label for="phone" class="form-label">Phone</label>
+          <input id="phone" name="phone" class="form-input" placeholder="+91" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="Your Message"></textarea>
+        </div>
+      </div>
+      <button class="form-submit" type="submit">Send Message</button>
+    </form>
+  
+  </section>
+
+
+  <section class="footer">
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are a company focused on delivering the best services to our customers.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: prasadmanore4@gmail.com</p>
+                <p>Phone: +91 7559377031</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+  </section>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
