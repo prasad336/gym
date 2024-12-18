@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(background.jpg);
+    background-image: url("image/background.jpg");
     background-size: cover;
   }
   
@@ -17,7 +17,7 @@ body {
     border-radius: 50%;
     display: flex;
     align-content: center;
-    background-image: url("hnflogo.jpg");
+    background-image: url("image/hnflogo.jpg");
     border: 1px black;
     
 
@@ -41,7 +41,7 @@ body {
     
   }
   .image {
-    background-image: url("bodybuilder-removebg.png");
+    background-image: url("image/bodybuilder-removebg.png");
     background-size: cover;
     height: 400px;
     width: 350px;
@@ -140,7 +140,7 @@ body {
   .card1 {
     width: 400px;
     height: 300px;
-    background-image: url(presonal2.jpg);
+    background-image: url("image/presonal2.jpg");
     background-size: cover;
     border: 1px solid #090909;
     padding: 20px;
@@ -159,7 +159,7 @@ body {
   .card2 {
     height: 300px;
     width: 400px;
-    background-image: url(weight\ training.webp);
+    background-image: url("image/weight training.webp");
     border: 1px solid #0b0b0b;
     padding: 20px;
     background-size: cover;
@@ -172,7 +172,7 @@ body {
   .card3 {
     height: 300px;
     width: 400px;
-    background-image: url(yoga\ session.avif);
+    background-image: url("image/yoga session.avif");
     background-size: cover;
     border: 1px solid #ddd;
     padding: 20px;
@@ -206,7 +206,7 @@ body {
   }
   
   .plan {
-    background-image: url(plan1.jpeg);
+    background-image: url("image/plan1.jpeg");
     padding: 30px;
     width: 25%;
     text-align: center;
@@ -306,7 +306,7 @@ body {
   .form-submit {
     width: 70%;
     margin-top: 1.2rem;
-    background-color: rgb(117, 197, 25);
+    background-color: white;
     color: black;
     padding: 13px 5px;
     border-radius: 0.375rem;
@@ -413,7 +413,7 @@ body {
 }
 
 .reviewimg1 {
-    background-image: url(cbum.avif);
+    background-image: url("image/cbum.avif");
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -454,7 +454,7 @@ body {
 }
 
 .reviewimg2 {
-    background-image: url(saket.jpeg);
+    background-image: url("image/saket.jpeg");
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -478,7 +478,7 @@ body {
 }
 
 .reviewimg3 {
-    background-image: url(shivam.jpeg);
+    background-image: url("image/shivam.jpeg");
     background-size: cover;
     height: 150px;
     width: 150px;
